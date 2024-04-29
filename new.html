@@ -1,0 +1,182 @@
+<html>
+
+<head>
+    <title>Student and Teacher Form</title>
+</head>
+
+<body>
+    <form id="form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age"><br><br>
+        <label for="role">Role:</label>
+        <select id="re" name="role">
+            <option value="student">Student</option>
+            <option value="teacher">Teacher</option>
+        </select><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <br><br>
+    <table id="table">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Role</th>
+        </tr>
+    </table>
+</body>
+<script>
+    const form = document.querySelector("#form");
+    const table = document.querySelector("#table");
+    form.addEventListener("submit", (event) => {
+        event.preventDefault();
+        const name = document.querySelector("#name").value;
+        const age = document.querySelector("#age").value;
+        const role = document.querySelector("#role").value;
+        const newRow = table.insertRow();
+        newRow.insertCell().innerHTML = name;
+        newRow.insertCell().innerHTML = age;
+        newRow.insertCell().innerHTML = role;
+    });
+</script>
+
+</html>
+/////////////////////////////////////////
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student & Teacher Form</title>
+<style>
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    th, td {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+    }
+
+    th {
+        background-color: #f2f2f2;
+    }
+</style>
+</head>
+<body>
+
+<h2>Student & Teacher Form</h2>
+
+<form id="studentTeacherForm">
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="role">Role:</label><br>
+    <select id="role" name="role" required>
+        <option value="">Select Role</option>
+        <option value="student">Student</option>
+        <option value="teacher">Teacher</option>
+    </select><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <button type="submit">Submit</button>
+</form>
+
+<br><br>
+
+<div id="dataDisplay">
+    <h2>Entered Data</h2>
+    <table id="dataTable">
+        <tr>
+            <th>Name</th>
+            <th>Role</th>
+            <th>Email</th>
+        </tr>
+    </table>
+</div>
+
+<script>
+    document.getElementById('studentTeacherForm').addEventListener('submit', function(event) {
+        event.preventDefault();
+
+        var name = document.getElementById('name').value;
+        var role = document.getElementById('role').value;
+        var email = document.getElementById('email').value;
+
+        var table = document.getElementById('dataTable');
+        var row = table.insertRow(-1);
+        var cell1 = row.insertCell(0);
+        var cell2 = row.insertCell(1);
+        var cell3 = row.insertCell(2);
+        cell1.innerHTML = name;
+        cell2.innerHTML = role;
+        cell3.innerHTML = email;
+
+        // Reset form fields
+        document.getElementById('name').value = '';
+        document.getElementById('role').value = '';
+        document.getElementById('email').value = '';
+    });
+</script>
+
+</body>
+</html>
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student & Teacher Form</title>
+</head>
+<body>
+
+<h2>Student & Teacher Form</h2>
+
+<form id="studentTeacherForm">
+    <label>Name:</label><br>
+    <input type="text" name="name" required><br><br>
+
+    <label>Role:</label><br>
+    <select name="role" required>
+        <option value="">Select Role</option>
+        <option value="student">Student</option>
+        <option value="teacher">Teacher</option>
+    </select><br><br>
+
+    <label>Email:</label><br>
+    <input type="email" name="email" required><br><br>
+
+    <button type="submit">Submit</button>
+</form>
+
+<div id="dataDisplay">
+    <h2>Entered Data</h2>
+    <table id="dataTable">
+        <tr>
+            <th>Name</th>
+            <th>Role</th>
+            <th>Email</th>
+        </tr>
+    </table>
+</div>
+
+<script>
+    document.getElementById('studentTeacherForm').addEventListener('submit', function(event) {
+        event.preventDefault();
+
+        var formData = new FormData(this);
+        var newRow = '<tr><td>' + formData.get('name') + '</td><td>' + formData.get('role') + '</td><td>' + formData.get('email') + '</td></tr>';
+        document.getElementById('dataTable').insertAdjacentHTML('beforeend', newRow);
+
+        this.reset(); // Reset form fields
+    });
+</script>
+
+</body>
+</html>
