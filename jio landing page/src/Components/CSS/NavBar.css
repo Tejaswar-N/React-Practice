@@ -1,0 +1,64 @@
+.Nav-Bar{
+  background-color: #0f3cc9;
+}
+.NavBar {
+    display: flex;
+    background-color: #0f3cc9;
+    justify-content: space-between; 
+    align-items: center; 
+    color: #fff;
+    padding: 10px;
+    font-family: helvetica,arial,sans-serif;
+    font-size: 16px;
+    margin: 0px 82.5px;
+
+  }
+ 
+  
+  .NavBar ul {
+    list-style-type: none;
+    margin-right: auto;
+    display: flex;
+    
+  }
+  
+  .NavBar li {
+    margin-right: 20px;
+  }
+  
+  /* .NavBar li:last-child {
+    margin-right: 0;
+  } */
+  
+  .NavBar li:hover {
+    color:#becefb;
+    cursor: pointer;
+
+  }
+  
+  .NavBar a {
+    text-decoration: none; /* Remove default underline from links */
+    color:#0a2885 ;
+  }
+  .j-icon{
+    left: -10px;
+    position: relative;
+  }
+
+  
+  /* .NavBar a:hover {
+    color: #2e1adf; /* Change link color on hover to gold */
+   */
+  
+  .NavBar-brand {
+    font-size: 1.5rem; /* Larger font size for brand/logo */
+    font-weight: bold; /* Bold font weight */
+  }
+   .searchh{
+    margin-left:auto;
+    display:block;
+  }
+
+ 
+ 
+  

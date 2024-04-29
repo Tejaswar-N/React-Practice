@@ -1,0 +1,66 @@
+.PartOne {
+    max-width: 100%;
+    max-height: 100%;
+
+}
+
+.PartOne img {
+    width: 100%;
+    height: auto;
+}
+.img-text {
+    position: relative;
+
+ }
+ .text {
+   position: absolute;
+   text-align: left;
+   right: 50%;
+   bottom:  15%;
+   color: white;
+   font-family: helvetica,arial,sans-serif;
+   margin: 0px 82.5px;
+
+ }
+ .text h1{
+    font-size: 40px;
+    font-weight:bolder;
+ }
+ .text p{
+    font-size: 18px;
+    font-weight: bolder;
+ }
+ .b1{
+    background: #0f3cc9;
+    border-radius: 35px;
+    height: 50px;
+    width: 120px;
+    border-color: transparent;
+
+ }
+ .b1 p1{
+     font-size: 16px; 
+     font-weight: bolder;
+     color: white;
+ }
+ .b2{
+    background:transparent;
+    border-radius: 35px;
+    height: 50px;
+    width: 120px;
+    border: 1px solid white;
+    margin-left: 18px;
+ }
+ .b2 p2{
+
+    font-size: 16px; 
+    font-weight: bolder;
+    color: white;
+ }
+ .b2 i{
+    font-size: 16px;
+    color: white;
+    padding-left:  8px;
+
+ }
+ 

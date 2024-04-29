@@ -1,0 +1,253 @@
+.zone1{
+    display: flex;
+    width: 1184px;
+    height: 450px;
+    margin: 0px 82.5px;
+    gap: 16px;
+    font-family: helvetica,arial,sans-serif;
+    
+    
+}
+ .Advertisement2-main h1{
+    text-align: center;
+} 
+.zone1-1{
+    width: 284px;
+    height: 384px;
+    background:#1144e4;
+    border-radius: 20px;
+    color: white;
+}
+.zone1-1 h1{
+    text-align: left;
+    margin-left:18px ;
+}
+.zone1-1 p{
+    width: 220px;
+    margin-left: 18px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.zone1-1 button{
+    font-family: helvetica,arial,sans-serif;
+    background-color:transparent;
+    border-radius: 35px;  
+    border: 0.1em solid  #aca9a9;
+    font-size: 16px; 
+    font-weight: bolder;
+    color:white;
+    padding: 16px 16px;
+    display: flex;
+    margin: 90px 0px 0px 16px;
+}
+.zone1-1 .fa{
+    color: white;
+    /* font-size: 50px; */
+    
+}
+
+.zone1-2{
+    width: 284px;
+    height: 384px;
+    background: pink;
+    border-radius: 20px;  
+}
+.head h3{
+    font-size:12px; 
+}
+.head{
+    background-color: #F7AB20;
+    color: white;
+    width:60px;
+    padding:0px 8px;
+    margin-left: 17px;
+    border-radius: 16px;
+
+}
+
+.zone1-2 h1{
+    text-align: left;
+    margin-left:18px ;
+    font-size: 26px;
+    font-weight: 900;
+}
+   
+.zone1-2 img{
+    width: 284px;
+    height: 159px;
+}
+.zone1-2 button{
+    font-family: helvetica,arial,sans-serif;
+    background-color:#0078AD;
+    border-radius: 35px;  
+    border: 0.1em;
+    font-size: 16px; 
+    font-weight: bolder;
+    color: #0f3cc9;
+    padding: 12px 16px;
+    display: flex;
+    margin: 16px;
+}
+.zone1-3{
+    width: 284px;
+    height: 384px;
+    background-color: blueviolet;
+    border-radius: 20px;
+
+}
+.zone1-3 img{
+    width: 284px;
+    height: 159px;
+}
+.zone1-3 h1{
+    text-align: left;
+    margin-left:18px ;
+    font-size: 26px;
+    font-weight: 900;
+}
+.zone1-3 button{
+    font-family: helvetica,arial,sans-serif;
+    background-color:#0078AD;
+    border-radius: 35px;  
+    border: 0.1em;
+    font-size: 16px; 
+    font-weight: bolder;
+    color: #0f3cc9;
+    padding: 12px 16px;
+    display: flex;
+    margin: 16px;
+}
+.zone1-4{
+    width: 284px;
+    height: 384px;
+    background-color: aquamarine;
+    border-radius: 20px;
+
+}
+.zone1-4 img{
+    width: 284px;
+    height: 159px;
+}
+.zone1-4 h1{
+    text-align: left;
+    margin-left:18px ;
+    font-size: 26px;
+    font-weight: 900;
+}
+.zone1-4 button{
+    font-family: helvetica,arial,sans-serif;
+    background-color:#0078AD;
+    border-radius: 35px;  
+    border: 0.1em;
+    font-size: 16px; 
+    font-weight: bolder;
+    color: #0f3cc9;
+    padding: 12px 16px;
+    display: flex;
+    margin: 16px;
+}
+.price{
+   padding-left: 20px;
+}
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.zone2{
+    width:1349px;
+    margin-top: 20px ;   
+    background-color: #f5f5f5;
+    font-family:helvetica,arial,sans-serif ;
+    height: 630px;
+}
+.zone2-1 img{
+    width:1184px;
+    height: 480px;
+    border-radius: 20px;
+    margin:70px 82.5px;
+}
+.zone2-1 h1{
+    color: white;
+    top:-12em;
+    position: relative;
+    margin-left: 115px;
+    font-weight: 900;
+    width: 573px;
+    padding-top: 20px;
+    font-size: 40px;
+}
+.zone2-1 p{
+    color: white;
+    top:-28em;
+    position: relative;
+    margin-left: 115px;
+    width: 452px;
+    padding-top: 18px;
+    font-size: 18px;
+}
+.zone2-1 button{
+    font-family: helvetica,arial,sans-serif;
+    background-color: #0f3cc9;
+    border-radius: 35px;  
+    border: 0.1em;
+    font-size: 16px; 
+    font-weight: bolder;
+    color:white;
+    padding: 18px 16px;
+    display: flex;
+    margin-left: 110px; 
+    position: relative;
+    top:-30em;
+}
+.zone2-2{
+    width: 1349px;
+    height: auto;
+    background-color:#0f3cc9;
+    color: white;
+    text-align: center;
+    font-family: helvetica,arial,sans-serif;
+    margin-top: -354px;
+}
+.zone2-2 h1{
+   font-size: 64px; 
+   font-weight: 900;
+   padding-top: 40px;
+}
+.zone2-2 p{
+   font-size: 18px;
+   font-weight: 500;
+}
+.zone2-2-buttons{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px;
+    font-family: helvetica,arial,sans-serif;
+    font-size: 16px;
+    align-items: baseline;
+}
+.zone2-2-buttons ul{
+    list-style-type: none;
+    display: flex;
+    margin: auto;  
+}
+.zone2-2-buttons ul li{
+    margin-right:20px;
+
+}
+.zone2-2-button{
+    background-color:transparent;
+    border-radius: 35px;
+    /* height: 50px;
+    width: 120px; */
+    border: 0.1em solid  #aca9a9;
+    font-size: 16px; 
+    font-weight: bolder;
+    color:white;
+    padding: 12px 16px;
+    display: flex;
+}
+.zone2-2-button:hover{
+    border: 2px solid white;
+}
+
+
+
